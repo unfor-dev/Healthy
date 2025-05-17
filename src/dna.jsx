@@ -420,7 +420,7 @@ export default function Dna(props) {
                     geometry={nodes.polySurface56_Base_Material_0.geometry}
                     // material={materials.Base_Material}
                   >
-                    <meshPhysicalMaterial metalness={0.2} color={'#38c0ea'} roughness={0.1} />
+                    <meshPhysicalMaterial metalness={0.2} color={'#DB8CFF'} roughness={0.1} />
                   </mesh>
                   <mesh
                     name="polySurface56_Fita_Material_0"
@@ -429,7 +429,7 @@ export default function Dna(props) {
                     geometry={nodes.polySurface56_Fita_Material_0.geometry}
                     // material={materials.Fita_Material}
                   >
-                    <meshPhysicalMaterial metalness={0.2} color={'#38c0ea'} roughness={0.1} />
+                    <meshPhysicalMaterial metalness={0.2} color={'#2eaf7d'} roughness={0.4} />
                   </mesh>
                 </group>
                 <group

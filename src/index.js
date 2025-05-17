@@ -1,4 +1,9 @@
-import ReactDOM from 'react-dom'
-import Scene from './Scene'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import Scene from './Scene';
 
-ReactDOM.render(<Scene />, document.getElementById('root'))
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <Scene />
+  </React.StrictMode>
+);
