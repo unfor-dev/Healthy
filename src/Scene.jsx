@@ -1,27 +1,13 @@
 import React, { useRef, Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 import './styles.css'
-import {
-  Capsule,
-  Environment,
-  Float,
-  Lightformer,
-  MeshTransmissionMaterial,
-  Text
-} from '@react-three/drei'
+import { Capsule, Environment, Float, Lightformer, MeshTransmissionMaterial, Text } from '@react-three/drei'
 import Dna from './dna'
 import Particles from './Particles'
-import {
-  Bloom,
-  DepthOfField,
-  EffectComposer,
-  HueSaturation,
-  SMAA,
-  Vignette
-} from '@react-three/postprocessing'
+import { Bloom, DepthOfField, EffectComposer, HueSaturation, SMAA, Vignette } from '@react-three/postprocessing'
 import CameraRig from './CameraRig'
 
-function Scene() {
+export default function Scene() {
   return (
     <Canvas camera={{ position: [0, 0, 7] }} gl={{ antialias: false, alpha: false }} dpr={1}>
       <color args={['#AED1FF']} attach="background" />
@@ -77,4 +63,3 @@ function Scene() {
   )
 }
 
-export default Scene
